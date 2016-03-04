@@ -1,0 +1,19 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: bettysteger.com
+email: admin@bettysteger.com
+description: > # this means to ignore newlines until "baseurl:"
+  Bettina Steger, MSc. Software Developer at lingohub.com. Founder of showmaniac.org. My latest posts are on LingoHub blog.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://bettysteger.com" # the base hostname & protocol for your site
+twitter_username: lpsBetty
+github_username:  lpsBetty
+
+# Build settings
+markdown: kramdown
