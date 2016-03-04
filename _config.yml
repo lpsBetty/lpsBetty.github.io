@@ -1,19 +1,53 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: bettysteger.com
-email: admin@bettysteger.com
-description: > # this means to ignore newlines until "baseurl:"
-  Bettina Steger, MSc. Software Developer at lingohub.com. Founder of showmaniac.org. My latest posts are on LingoHub blog.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://bettysteger.com" # the base hostname & protocol for your site
-twitter_username: lpsBetty
-github_username:  lpsBetty
-
 # Build settings
-markdown: kramdown
+permalink   : /blog/:year/:title/
+markdown    : kramdown
+highlighter : pygments
+gems: [jekyll-paginate]
+
+paginate: 3
+paginate_path: "/blog/page/:num/"
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed # expanded
+
+# SEO settings
+title: bettysteger.com
+description: "Bettina Steger, MSc. Software Developer at lingohub.com. Creator of showmaniac.org. My latest posts are on LingoHub blog."
+keywords: "Bettina Steger, web development, frontend, software engineer, software developer"
+url: http://bettysteger.com
+# baseurl: ""
+
+# google_analytics: UA-52446115-1
+# repo: http://github.com/lpsBetty/end2end
+# disqus_shortname: "fernandomoreira"
+# disqus_site_shortname: "fernandomoreira"
+
+# Author settings
+author:
+  name      : Bettina Steger
+  job       : Frontend Engineer
+  bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  thumb     : /images/author.jpg
+  email     : admin@bettysteger.com
+  url       : http://bettysteger.com
+  github    : http://github.com/lpsBetty
+  twitter   : http://twitter.com/lpsBetty
+  # facebook  : http://facebook.com/lpsBetty
+  # linkedin  : http://linkedin.com/in/nandomoreirame
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  # - slug: resume
+  #   title: Resume
+  # - slug: skills
+  #   title: Skills
+  - slug: blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
