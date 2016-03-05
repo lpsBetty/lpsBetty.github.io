@@ -2,6 +2,9 @@
 permalink   : /blog/:year/:title/
 markdown    : kramdown
 highlighter : rouge
+gems:
+  - jekyll-paginate
+  - jekyll-gravatar
 
 paginate: 3
 paginate_path: "/blog/page/:num/"
@@ -39,10 +42,6 @@ author:
 navbar:
   - slug: projects
     title: Projects
-  # - slug: resume
-  #   title: Resume
-  # - slug: skills
-  #   title: Skills
   - slug: blog
     title: Blog
 
