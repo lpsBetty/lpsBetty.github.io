@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Projects
-permalink: /projects/
 ---
 
 This page is currently only available in German.
