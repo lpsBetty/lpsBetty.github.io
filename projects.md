@@ -82,7 +82,7 @@ Technologies: AngularJS, Semantic Web, Linked Data
 
 ![visuaLOD Demo](/images/projects/visualod.png){: .pull-right}{: width="300"}
 
-Kleines Projekt im Rahmen meiner Masterarbeit. Während der Umsetzung wurde ein Demo-Paper mit dem Titel ”Resource DescriptionGraph views for configuring Linked Data visualizations” (Steger, Kurz und Schaffert 2013) für die I-Semantics Konferenz in Graz eingereicht. Dieses Paper beschreibt kurz den Ansatz und Workflow des **Visualisierungstools visuaLOD**. Es wurde von den GutachterInnen akzeptiert und bei der dreitägigen Konferenz im September 2013 als Demo Poster präsentiert.
+Kleines Projekt im Rahmen meiner Masterarbeit. Während der Umsetzung wurde ein Demo-Paper mit dem Titel [”Resource DescriptionGraph views for configuring Linked Data visualizations”](http://ceur-ws.org/Vol-1026/paper7.pdf) (Steger, Kurz und Schaffert 2013) für die I-Semantics Konferenz in Graz eingereicht. Dieses Paper beschreibt kurz den Ansatz und Workflow des **Visualisierungstools visuaLOD**. Es wurde von den GutachterInnen akzeptiert und bei der dreitägigen Konferenz im September 2013 als Demo Poster präsentiert.
 
 ### Abstract
 
