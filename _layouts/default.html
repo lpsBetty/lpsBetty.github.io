@@ -9,7 +9,9 @@
         {{ content }}
       </div>
 
+      {% if page.url != '/' %}
       {% include footer.html %}
+      {% endif %}
 
       {% include github-corner.html %}
 
