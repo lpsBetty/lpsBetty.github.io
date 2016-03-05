@@ -2,6 +2,8 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
+gem 'rmagick'
+
 group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-compose'
