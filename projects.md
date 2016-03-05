@@ -8,6 +8,7 @@ This page is currently only available in German.
 
 * [showmaniac](#showmaniac) *AngularJS App*{: .txt-medium-gray}
 * [JAMES](#james) *EmberJS App*{: .txt-medium-gray}
+* [Trimana](#trimana) *Rails CMS*{: .txt-medium-gray}
 * [visuaLOD](#visualod) *AngularJS Prototype*{: .txt-medium-gray}
 * [Movieness](#movieness) *Rails App*{: .txt-medium-gray}
 * [Weinhandel Ebner](#weinhandel-ebner) *Rails CMS*{: .txt-medium-gray}
@@ -55,6 +56,22 @@ Technologies: EmberJS, Handlebars, Ruby on Rails, HTML5
 * Leichtes Finden von neuen Informationsquellen
 
 Durch die Weiterentwicklung von „JAMES“ wird die Plattform an aktuelle Gegebenheiten, externe Plattformen und Services angepasst.
+
+---
+
+# Trimana
+
+Dec 2013 \| [trimana.at](http://www.trimana.at/)  
+Technologies: Ruby on Rails, RefineryCMS, SCSS, JS
+{: .txt-medium-gray}
+
+![Trimana](/images/projects/trimana.png){: .pull-right}{: width="300"}
+
+Homepagegestaltung für das Architekturbüro Trimana aus Feldkirch in Österreich.
+
+Dieses Projekt ist im Auftrag und Zusammenarbeit mit der Firma Antiloop GmbH und [Matthias Frick](http://www.frick-web.at/) entstanden.
+
+Ich habe während dieses Projektes das komplette Front-End umgesetzt. Dabei kam das CSS-Framework Twitter Bootstrap zum Einsatz um die Seite responsiv (mobil optimiert) zu gestalten.
 
 ---
 
