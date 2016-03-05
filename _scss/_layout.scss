@@ -265,6 +265,12 @@ strong {
   }
 }
 
+.post-content {
+  ul, ol {
+    margin: 0 0 .75em;
+  }
+}
+
 
 .social {
   @extend %clearfix;
