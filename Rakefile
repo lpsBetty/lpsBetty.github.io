@@ -8,14 +8,14 @@ require "jekyll"
 GITHUB_REPONAME    = "lpsBetty/lpsBetty.github.io"
 GITHUB_REPO_BRANCH = "master"
 
-SOURCE = "source/"
+SOURCE = ""
 DEST   = "_site"
 CONFIG = {
-  'layouts' => File.join(SOURCE, "_layouts"),
-  'posts' => File.join(SOURCE, "_posts"),
+  'layouts' => "_layouts",
+  'posts' => "_posts",
   'post_ext' => "md",
-  'categories' => File.join(SOURCE, "categories"),
-  'tags' => File.join(SOURCE, "tags")
+  'categories' => "categories",
+  'tags' => "tags"
 }
 
 task default: %w[publish]
@@ -23,7 +23,7 @@ task default: %w[publish]
 desc "Generate blog files"
 task :generate do
   Jekyll::Site.new(Jekyll.configuration({
-    "source"      => "source/",
+    "source"      => "",
     "destination" => "_site",
     "config"      => "_config.yml"
   })).process
@@ -103,7 +103,7 @@ end # task :post
 desc "Create a new page."
 task :page do
   name = ENV["name"] || "new-page.md"
-  filename = File.join(SOURCE, "#{name}")
+  filename = "#{name}"
   filename = File.join(filename, "index.html") if File.extname(filename) == ""
   title = File.basename(filename, File.extname(filename)).gsub(/[\W\_]/, " ").gsub(/\b\w/){$&.upcase}
   if File.exist?(filename)

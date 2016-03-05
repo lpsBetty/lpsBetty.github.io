@@ -2,9 +2,6 @@
 permalink   : /blog/:year/:title/
 markdown    : kramdown
 highlighter : rouge
-gems:
-  - jekyll-paginate
-  - jekyll-gravatar
 
 paginate: 3
 paginate_path: "/blog/page/:num/"
@@ -24,14 +21,13 @@ url: http://bettysteger.com
 
 # google_analytics: UA-52446115-1
 repo: http://github.com/lpsBetty
-# disqus_shortname: "fernandomoreira"
-# disqus_site_shortname: "fernandomoreira"
+disqus_site_shortname: "bettysteger"
 
 # Author settings
 author:
   # name      : Bettina Steger
   # job       : Frontend Engineer
-  thumb     : /images/author.jpg
+  # thumb     : /images/author.jpg
   email     : admin@bettysteger.com
   url       : http://bettysteger.com
   github    : http://github.com/lpsBetty
