@@ -2,8 +2,7 @@
 
 Clean Jekyll theme
 
-> :warning:
-  This theme requires ruby and rubygems installed
+> This theme requires ruby and rubygems installed
 
 * [x] Clean layout
 * [x] Resposive layout
@@ -25,11 +24,11 @@ Clean Jekyll theme
 
 Access, [localhost:4000](http://localhost:4000/)
 
-### Deploy in Github pages in 2 steps
+### Deploy in Github pages
 
-If you have no custom plugins what so ever (see below), you do not have to compile your site first, just:
+If you have no custom plugins what so ever (see [below](#plugins-on-github-pages)), you do not have to compile your site first, just:
 
-* `git push origin master`
+* `git push origin master` or `git push origin gh-pages`
 
 Otherwise: 
 

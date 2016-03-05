@@ -337,6 +337,9 @@ strong {
   &:hover .octo-arm {
     animation: octocat-wave 560ms ease-in-out;
   }
+  @include media($mobile) {
+    display: none;
+  }
 }
 
 @keyframes octocat-wave {
