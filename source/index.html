@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 ---
 
 <section class="hero">
@@ -7,14 +7,17 @@ layout: home
   <div class="hero-inner container">
 
     <img src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb" class="dot">
-    <h1>Hello!..</h1>
-    <h3>I'm <strong itemprop="name">{{ site.author.name }}</strong>, a <em itemprop="jobTitle">{{ site.author.job }}</em>.</h3>
-    <h3>{{ site.author.bio }}</h3>
 
-    <a href="{{ '/about' | prepend: site.baseurl }}" class="btn btn-ghost">about</a>
-    <a href="{{ '/blog' | prepend: site.baseurl }}" class="btn btn-ghost">blog</a>
+    <h1>Bettina Steger, MSc</h1>
 
-    {% include social.html %}
+    <h3>
+      <span itemprop="jobTitle">Software Developer</span> at <a href="https://lingohub.com" target="_blank">lingohub.com</a><br>
+      Creator of <a href="http://www.showmaniac.org" target="_blank">showmaniac.org</a>
+    </h3>
+
+    <p>
+      My latest posts are on <a href="https://lingohub.com/blog/author/betty/" target="_blank">LingoHub blog</a>
+    </p>
 
   </div>
 
