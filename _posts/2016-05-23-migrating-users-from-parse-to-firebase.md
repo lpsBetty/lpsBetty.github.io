@@ -2,7 +2,7 @@
 layout: post
 title: "Migrating users from Parse to Firebase"
 permalink: migrating-users-from-parse-to-firebase
-date: 2016-05-24 23:23:23
+date: 2016-05-23 23:23:23
 comments: true
 description: "Migrating users from Parse to Firebase"
 keywords: "parse, firebase, migration, javascript, angular"
