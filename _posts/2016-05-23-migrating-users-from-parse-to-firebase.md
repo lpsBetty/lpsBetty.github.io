@@ -117,7 +117,7 @@ My login form is also my register form (was always like this), which makes it ea
 1. Check if Firebase authentication exists (login)
   * yes ⇾ login ✓
   * no  ⇾ sign up ⇾ see 2.
-2. Create Firebase authencation (sign up) - after success:
+2. Create Firebase authentication (sign up) - after success:
   * Parse user exists ⇾ get Parse data ⇾ login ✓
   * Parse user doesn't exist ⇾ login ✓
 
@@ -149,7 +149,7 @@ var login = function(user) {
 
 
 
-For **Facebook Authentications** you can do the same, but there will be 2 pop-up authencation windows, which is not very nice. That's why I would recommend only getting the *FB Parse user*, when the necessary data is not yet set for the *FB Firebase user*. This code gets called after the user has been authenticated via Facebook to Firebase:
+For **Facebook Authentications** you can do the same, but there will be 2 pop-up authentication windows, which is not very nice. That's why I would recommend only getting the *FB Parse user*, when the necessary data is not yet set for the *FB Firebase user*. This code gets called after the user has been authenticated via Facebook to Firebase:
 
 
 {% highlight javascript %}{% raw %}
