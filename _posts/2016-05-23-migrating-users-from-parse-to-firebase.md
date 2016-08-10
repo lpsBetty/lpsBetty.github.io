@@ -14,7 +14,7 @@ tags:
 - angularjs
 ---
 
-As some of you may know the [Parse](https://www.parse.com) hosted service is shutting down on January 28, 2017. I was looking for an alternative because I don't want to self-host a Parse Server. First of all I read some blog posts and revised the features of Parse that are used by my small app [showmaniac](http://showmaniac.org). 
+As some of you may know the [Parse](https://www.parse.com) hosted service is shutting down on January 28, 2017. I was looking for an alternative because I don't want to self-host a Parse Server. First of all I read some blog posts and revised the features of Parse that are used by my small app [showmaniac](http://www.showmaniac.org/). 
 
 Feature Requirements:
 

@@ -20,7 +20,7 @@ This page is currently only available in German.
 
 # Showmaniac
 
-Dec 2011 - now \| [showmaniac.org](http://showmaniac.org)  
+Dec 2011 - now \| [showmaniac.org](http://www.showmaniac.org/)  
 Technologies: AngularJS, NodeJS, HTML5, SCSS
 {: .txt-medium-gray}
 
