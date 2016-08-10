@@ -8,4 +8,5 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-compose'
   gem 'jekyll-gravatar'
+  gem 'jekyll-redirect-from'
 end

@@ -5,6 +5,7 @@ highlighter : rouge
 gems:
   - jekyll-paginate
   - jekyll-gravatar
+  - jekyll-redirect-from
 
 paginate: 5
 paginate_path: "/blog/page/:num/"
