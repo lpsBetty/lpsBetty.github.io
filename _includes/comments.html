@@ -9,11 +9,14 @@
       var disqus_config = function() {
         this.page.url = '{{ site.url }}{{ page.id }}';
         this.page.identifier = '{{ page.id }}';
+        this.page.title = '{{ page.title }}';
+        console.log('disqus page.url:', this.page.url);
+        console.log('disqus page.identifier:', this.page.identifier);
       };
       (function() {
         var d = document,
         s = d.createElement('script');
-        s.src = '//{{ site.disqus_site_shortname }}.disqus.com/embed.js';
+        s.src = 'https://{{ site.disqus_site_shortname }}.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
       })();
