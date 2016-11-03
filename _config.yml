@@ -1,49 +1,57 @@
-# Build settings
-permalink   : /blog/:year/:title/
-markdown    : kramdown
-highlighter : rouge
+---
+title: bettysteger.com
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+permalink: "/blog/:year/:title/"
+markdown: kramdown
+highlighter: rouge
 gems:
-  - jekyll-paginate
-  - jekyll-gravatar
-  - jekyll-redirect-from
-
+- jekyll-paginate
+- jekyll-gravatar
+- jekyll-redirect-from
 paginate: 5
 paginate_path: "/blog/page/:num/"
 comments: true
-
 destination: _site
 sass:
   sass_dir: _scss
-  style: compressed # expanded
-
-# SEO settings
-title: bettysteger.com
-description: "Bettina Steger, MSc. Software Developer at lingohub.com. Creator of showmaniac.org. My latest posts are on LingoHub blog."
-keywords: "Bettina Steger, web development, frontend, software engineer, software developer"
+  style: compressed
+description: Bettina Steger, MSc. Software Developer at lingohub.com. Creator of showmaniac.org.
+  My latest posts are on LingoHub blog.
+keywords: Bettina Steger, web development, frontend, software engineer, software developer
 url: http://bettysteger.com
-# baseurl: ""
-
 google_analytics: UA-25710155-2
 repo: http://github.com/lpsBetty
-disqus_site_shortname: "bettysteger"
-
-# Author settings
+disqus_site_shortname: bettysteger
 author:
-  # name      : Bettina Steger
-  # job       : Frontend Engineer
-  # thumb     : /images/author.jpg
-  email     : admin@bettysteger.com
-  url       : http://bettysteger.com
-  github    : http://github.com/lpsBetty
-  twitter   : http://twitter.com/lpsBetty
-  # facebook  : http://facebook.com/lpsBetty
-  # linkedin  : http://linkedin.com/in/bettysteger
-
-# navbar pages
+  email: admin@bettysteger.com
+  url: http://bettysteger.com
+  github: http://github.com/lpsBetty
+  twitter: http://twitter.com/lpsBetty
 navbar:
-  - slug: projects
-    title: Projects
-  - slug: blog
-    title: Blog
-
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+- slug: projects
+  title: Projects
+- slug: blog
+  title: Blog
+exclude:
+- gulp
+- node_modules
+- bower
+- bower_components
+- config.rb
+- src
+- Gemfile
+- Gemfile.lock
+- ".rvmrc"
+- ".rbenv-version"
+- package.json
+- gulpfile.js
+- README.md
+- Rakefile
+- changelog.md
