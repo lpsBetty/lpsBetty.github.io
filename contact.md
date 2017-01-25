@@ -5,8 +5,8 @@ title: Write me
 
 You can contact me, either in English or German ;)  
 
-🇬🇧 Do you want to work with me? Just send a message!    
-🇩🇪 Du willst mit mir zusammenarbeiten? Einfach eine Nachricht schicken! 
+🇬🇧 &nbsp;Are you interested in working with me? Just send a message!    
+🇩🇪 &nbsp;Bist du an einer Zusammenarbeit interessiert? Schicke einfach eine Nachricht! 
 
 
   
