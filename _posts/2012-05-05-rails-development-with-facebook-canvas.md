@@ -1,14 +1,14 @@
 ---
-title: Rails Development with Facebook Canvas
-date: 2012-05-05 15:23:00 Z
+layout: post
+title: "Rails Development with Facebook Canvas"
+date: 2012-05-05 15:23
+comments: true
+description: "Run your Rails development environment inside facebook canvas."
+keywords: "facebook, rails, development, localhost"
 tags:
 - facebook
 - development
 - ruby on rails
-layout: post
-comments: true
-description: Run your Rails development environment inside facebook canvas.
-keywords: facebook, rails, development, localhost
 ---
 
 I was trying to make an existing app run as a Facebook App!
