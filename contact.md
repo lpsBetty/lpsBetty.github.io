@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Write me
+layout: page
 ---
 
 <form action="https://formspree.io/admin@bettysteger.com" method="POST">

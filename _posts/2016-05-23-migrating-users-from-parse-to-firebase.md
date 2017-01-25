@@ -1,17 +1,17 @@
 ---
-layout: post
-title: "Migrating users from Parse to Firebase"
-redirect_from: /migrating-users-from-parse-to-firebase
-date: 2016-05-23 23:23:23
-comments: true
-description: "Migrating users from Parse to Firebase"
-keywords: "parse, firebase, migration, javascript, angular"
+title: Migrating users from Parse to Firebase
+date: 2016-05-23 23:23:23 Z
 tags:
 - parse
 - firebase
 - migration
 - javascript
 - angularjs
+layout: post
+redirect_from: "/migrating-users-from-parse-to-firebase"
+comments: true
+description: Migrating users from Parse to Firebase
+keywords: parse, firebase, migration, javascript, angular
 ---
 
 As some of you may know the [Parse](https://www.parse.com) hosted service is shutting down on January 28, 2017. I was looking for an alternative because I don't want to self-host a Parse Server. First of all I read some blog posts and revised the features of Parse that are used by my small app [showmaniac](http://www.showmaniac.org/). 
