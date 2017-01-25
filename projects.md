@@ -146,7 +146,7 @@ Eine Herausforderung war die Mehrsprachigkeit, denn die Seite verfügt über 3 S
 
 # Wobistn?
 
-May 2011 \| [wobistn.org](http://www.wobistn.org/)  
+May 2011  
 Technologies: Ruby on Rails, HTML, SCSS, JS
 {: .txt-medium-gray}
 
