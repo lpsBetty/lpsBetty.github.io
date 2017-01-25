@@ -1,7 +1,7 @@
 ---
-title: Imprint
-permalink: "/imprint/"
 layout: page
+title: Imprint
+permalink: /imprint/
 ---
 
 Bettina Steger  

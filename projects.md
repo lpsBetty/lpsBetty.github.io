@@ -1,6 +1,6 @@
 ---
-title: Projects
 layout: page
+title: Projects
 ---
 
 This page is currently only available in German.

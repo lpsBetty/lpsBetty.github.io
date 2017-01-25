@@ -1,15 +1,15 @@
 ---
-title: Single-Page application with Rails 3 and AngularJS
-date: 2013-01-20 16:39:18 Z
+layout: post
+title: "Single-Page application with Rails 3 and AngularJS"
+date: 2013-01-20 16:39:18
+comments: true
+description: "A small tutorial how to use AngularJS with Ruby on Rails 3"
+keywords: "angular, rails, tutorial"
 tags:
 - angularjs
 - deployment
 - javascript
 - ruby on rails
-layout: post
-comments: true
-description: A small tutorial how to use AngularJS with Ruby on Rails 3
-keywords: angular, rails, tutorial
 ---
 
 #### What is AngularJS?
