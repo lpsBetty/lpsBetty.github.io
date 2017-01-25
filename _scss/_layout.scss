@@ -395,3 +395,8 @@ input[type=submit] {
     background-color: #777;
   }
 }
+
+abbr:hover {
+  border-bottom: .1em dotted;
+  cursor: help;
+}
