@@ -41,9 +41,11 @@ author:
 
 # navbar pages
 navbar:
-  - slug: projects
+  - slug: /projects/
     title: Projects
-  - slug: blog
+  - slug: /blog/
     title: Blog
+  - slug: /contact/
+    title: Contact
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

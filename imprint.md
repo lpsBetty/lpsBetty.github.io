@@ -5,8 +5,9 @@ permalink: /imprint/
 ---
 
 Bettina Steger  
-Ritzenseestraße 6d  
-A-5760 Saalfelden
+Hans-Prodinger-Str. 11  
+5020 Salzburg  
+Austria
 
 admin[-at-]bettysteger[-dot-]com
 
