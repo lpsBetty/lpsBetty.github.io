@@ -291,6 +291,12 @@ strong {
       color: $primary-color;
     }
   }
+
+  .fa-envelope-open {
+    font-size: 1.7em;
+    position: relative;
+    top: -.1em;
+  }
 }
 
 
@@ -396,6 +402,9 @@ input[type=submit] {
   }
 }
 
+abbr {
+  text-decoration: none;
+}
 abbr:hover {
   border-bottom: .1em dotted;
   cursor: help;
