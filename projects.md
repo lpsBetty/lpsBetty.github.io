@@ -5,6 +5,8 @@ title: Projects
 
 This page is currently only available in German.
 
+* [Konzertspektakel](https://www.konzertspektakel.at/)  *Rails 5 App*{: .txt-medium-gray}
+* [LingoHub](https://lingohub.com/)  *AngularJS App*{: .txt-medium-gray}
 * [showmaniac](#showmaniac) *AngularJS App*{: .txt-medium-gray}
 * [JAMES](#james) *EmberJS App*{: .txt-medium-gray}
 * [Trimana](#trimana) *Rails CMS*{: .txt-medium-gray}
