@@ -24,7 +24,6 @@ url: http://bettysteger.com
 # baseurl: ""
 
 google_analytics: UA-25710155-2
-repo: http://github.com/lpsBetty
 disqus_site_shortname: "bettysteger"
 
 # Author settings
@@ -34,8 +33,8 @@ author:
   # thumb     : /images/author.jpg
   email     : hello@bettysteger.com
   url       : http://bettysteger.com
-  github    : http://github.com/lpsBetty
-  twitter   : http://twitter.com/lpsBetty
+  github    : https://github.com/lpsBetty
+  twitter   : https://twitter.com/lpsBetty
   # facebook  : http://facebook.com/lpsBetty
   # linkedin  : http://linkedin.com/in/bettysteger
 
