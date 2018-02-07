@@ -80,7 +80,7 @@ Ich habe während dieses Projektes das komplette Front-End umgesetzt. Dabei kam 
 
 # visuaLOD
 
-Sept 2013 \| [visualod.bitbucket.org](http://visualod.bitbucket.org/)  
+Sept 2013 \| [visualod.bitbucket.io](https://visualod.bitbucket.io/)  
 Technologies: AngularJS, Semantic Web, Linked Data
 {: .txt-medium-gray}
 
