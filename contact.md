@@ -10,7 +10,7 @@ You can contact me, either in English or German ;)
 
 
   
-<form action="https://formspree.io/admin@bettysteger.com" method="POST">
+<form action="https://formspree.io/hello@bettysteger.com" method="POST">
     <label>E-Mail</label>
     <input type="email" name="_replyto" required>
     <label>Message</label>
