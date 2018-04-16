@@ -166,7 +166,7 @@ namespace :assets do
 
     puts "Assembling Gravatar URL..."
     gravatar_hash = Digest::MD5.hexdigest(gravatar_email)
-    gravatar_url = "http://www.gravatar.com/avatar/#{gravatar_hash}?s=144"
+    gravatar_url = "https://www.gravatar.com/avatar/#{gravatar_hash}?s=144"
 
     origin = "origin.png"
     File.delete origin if File.exist? origin
