@@ -9,12 +9,4 @@ You can contact me, either in English or German ;)
 🇩🇪 &nbsp;Bist du an einer Zusammenarbeit interessiert? Schicke einfach eine Nachricht! 
 
 
-  
-<form action="https://formspree.io/hello@bettysteger.com" method="POST">
-    <label>E-Mail</label>
-    <input type="email" name="_replyto" required>
-    <label>Message</label>
-    <textarea name="message" required></textarea>
-    <input type="submit" value="Send">
-</form>
-
+<h3><a href="mailto:hello@bettysteger.com?subject=Hi Betty">hello@bettysteger.com</a></h3>
