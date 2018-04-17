@@ -5,7 +5,7 @@ title: Projects
 
 I proudly present a small selection of my previous work.
 
-* [Konzertspektakel](https://www.konzertspektakel.at/)  *Rails 5 App*{: .txt-medium-gray}
+* [Konzertspektakel](https://redox-labs.com/project/konzertspektakel/)  *Rails 5 App*{: .txt-medium-gray}
 * [Gehmacher - Home Interiors](https://www.gehmacher.at/) *Wordpress CMS*{: .txt-medium-gray}
 * [LingoHub](#lingohub)  *AngularJS App*{: .txt-medium-gray}
 * [showmaniac](#showmaniac) *AngularJS App*{: .txt-medium-gray}
@@ -32,13 +32,13 @@ I am very proud of the editor, I made for the translators. The contenteditable e
 
 ---
 
+[![showmaniac](/images/projects/showmaniac.png){: width="300"}](/images/projects/showmaniac.png){: .pull-right}
+
 # Showmaniac
 
 Dec 2011 - now \| [showmaniac.org](https://www.showmaniac.org/)  
 Technologies: AngularJS, NodeJS, HTML5, SCSS, LocalStorage, Firebase
 {: .txt-medium-gray}
-
-[![showmaniac](/images/projects/showmaniac.png){: width="300"}](/images/projects/showmaniac.png){: .pull-right}
 
 Shows the previous and next air date of your added TV shows in your local time. Browse popular shows or recommendations based on your added shows! If you login with Facebook, you can also choose from TV shows you liked. 
 
@@ -47,13 +47,13 @@ This is a project, that really is important to me, because I ❤ TV shows so muc
 
 ---
 
+[![JAMES](/images/projects/james.jpg){: width="300"}](/images/projects/james.jpg){: .pull-right}
+
 # JAMES
 
 Master project 2012/13 \| [jamesapp.com](http://jamesapp.com/) \| [Promo Video](https://vimeo.com/62671816)  
 Technologies: EmberJS, Handlebars, Ruby on Rails, HTML5
 {: .txt-medium-gray}
-
-[![JAMES](/images/projects/james.jpg){: width="300"}](/images/projects/james.jpg){: .pull-right}
 
 Description only available in German.
 
@@ -75,13 +75,13 @@ Durch die Weiterentwicklung von „JAMES“ wird die Plattform an aktuelle Gegeb
 
 ---
 
+[![Trimana](/images/projects/trimana.png){: width="300"}](/images/projects/trimana.png){: .pull-right}
+
 # Trimana
 
 Dec 2013 \| [trimana.at](http://www.trimana.at/)  
 Technologies: Ruby on Rails, RefineryCMS, SCSS, JS
 {: .txt-medium-gray}
-
-[![Trimana](/images/projects/trimana.png){: width="300"}](/images/projects/trimana.png){: .pull-right}
 
 Frontend development for the architecture office Trimana in Feldkirch (Austria). Made together with [Antiloop GmbH](https://www.antiloop.com/) and [Matthias Frick](http://www.frick-web.at/).
 
@@ -89,13 +89,13 @@ I used Twitter Bootstrap (CSS Framework with components) to make use of the resp
 
 ---
 
+[![visuaLOD Demo](/images/projects/visualod.png){: width="300"}](/images/projects/visualod.png){: .pull-right}
+
 # visuaLOD
 
 Sept 2013 \| [visualod.bitbucket.io](https://visualod.bitbucket.io/)  
 Technologies: AngularJS, Semantic Web, Linked Data, JS Bookmarklet
 {: .txt-medium-gray}
-
-[![visuaLOD Demo](/images/projects/visualod.png){: width="300"}](/images/projects/visualod.png){: .pull-right}
 
 visuaLOD is a fully client side library that allows to separate the workflow of the creation of Linked Data applications in a semantic web part and a UI part. It turnes complex graph structures to configurable object models and uses well known technologies like JavaScript and JSON. It was built via Google's AngularJS Framework.
 
@@ -107,13 +107,13 @@ The Linked Data movement with the aims of publishing and interconnecting machine
 
 ---
 
+[![Movieness](/images/projects/movieness.png){: width="300"}](/images/projects/movieness.png){: .pull-right}
+
 # Movieness
 
 July 2012 \| [movieness.org](http://movieness.org/)  
 Technologies: Ruby on Rails, JS, SCSS
 {: .txt-medium-gray}
-
-[![Movieness](/images/projects/movieness.png){: width="300"}](/images/projects/movieness.png){: .pull-right}
 
 Movieness was made together with [Thomas Czernik](http://webreload.de/). It's a small Web app, where you can organize your movie collection (DVDs or digital copies). 
 
@@ -121,13 +121,13 @@ There is also a Facebook login, and you can share your new added movies on Faceb
 
 ---
 
+[![Wobistn?](/images/projects/wobistn.png){: width="300"}](/images/projects/wobistn.png){: .pull-right}
+
 # Wobistn?
 
 May 2011  
 Technologies: Ruby on Rails, HTML, SCSS, JS
 {: .txt-medium-gray}
-
-[![Wobistn?](/images/projects/wobistn.png){: width="300"}](/images/projects/wobistn.png){: .pull-right}
 
 "Wobistn" means "Where are you?" in an austrian accent. Description only available in German.
 
@@ -139,13 +139,13 @@ Ende Mai 2011 wurde nach Monaten harter und genialer Arbeit unser Bachelorprojek
 
 ---
 
+[![Martin Lorenz](/images/projects/martin_lorenz.png){: width="300"}](/images/projects/martin_lorenz.png){: .pull-right}
+
 # Martin Lorenz
 
 Feb 2011 \| [martinlorenz.at](http://www.martinlorenz.at/)  
 Technologies: Wordpress, PHP, CSS
 {: .txt-medium-gray}
-
-[![Martin Lorenz](/images/projects/martin_lorenz.png){: width="300"}](/images/projects/martin_lorenz.png){: .pull-right}
 
 Portfolio and Blog of Martin Lorenz, a MultiMediaArt alumni student. 
 
@@ -153,13 +153,13 @@ Special focus is on design and frontend. I worked hard on the CSS and adjustment
 
 ---
 
+![GrandCentral CP](/images/projects/gccp_logo.png){: .pull-right}
+
 # GrandCentralCP
 
 May 2010 \| [grandcentralcp.org](http://www.grandcentralcp.org/)  
 Technologies: Ruby on Rails, Haml, Sass
 {: .txt-medium-gray}
-
-![GrandCentral CP](/images/projects/gccp_logo.png){: .pull-right}
 
 GrandCentralCP is a light web server control panel written in Ruby on Rails. Description only available in German.
 
