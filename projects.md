@@ -111,7 +111,7 @@ The Linked Data movement with the aims of publishing and interconnecting machine
 
 # Movieness
 
-July 2012 \| [movieness.org](http://movieness.org/)  
+July 2012 \| movieness.org (Closed because of #GDPR)  
 Technologies: Ruby on Rails, JS, SCSS
 {: .txt-medium-gray}
 
