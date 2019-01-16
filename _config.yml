@@ -18,7 +18,7 @@ sass:
 
 # SEO settings
 title: bettysteger.com
-description: "Bettina Steger, MSc. Web / Software Developer. Creator of showmaniac.org. My latest posts are on LingoHub blog."
+description: "Bettina Steger, MSc. Web / Software Developer. Working remote. Self-employed and happy."
 keywords: "Bettina Steger, web development, frontend, software engineer, software developer"
 url: https://bettysteger.com
 # baseurl: ""
@@ -32,7 +32,7 @@ author:
   # job       : Frontend Engineer
   # thumb     : /images/author.jpg
   email     : hello@bettysteger.com
-  url       : http://bettysteger.com
+  url       : https://bettysteger.com
   github    : https://github.com/lpsBetty
   twitter   : https://twitter.com/lpsBetty
   # facebook  : http://facebook.com/lpsBetty
