@@ -1,14 +1,14 @@
 (function($){
 
-	"use strict"; 
+	"use strict";
 
 /* ---------------------------------------------- /*
 * Preloader
 /* ---------------------------------------------- */
 
 $(window).load(function() {
-	$('#loading').fadeOut();
-	$('#loading').delay(350).fadeOut('slow');
+	// $('#loading').fadeOut();
+	$('#loading').delay(300).fadeOut();
 });
 
 /* ---------------------------------------------- /*
@@ -19,7 +19,7 @@ $('a[href*=#]').on("click", function(e){
 	var anchor = $(this);
 	$('html, body').stop().animate({
 		scrollTop: $(anchor.attr('href')).offset().top
-	}, 1000);
+	}, 500);
 	e.preventDefault();
 });
 
