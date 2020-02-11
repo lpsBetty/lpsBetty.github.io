@@ -160,7 +160,7 @@ namespace :assets do
   desc "Generate favicons using your Gravatar"
   task :favicons do
     config = YAML.load_file('_config.yml')
-    gravatar_email = config['author']['email']
+    gravatar_email = config['email']
     asset_path = 'images'
     name_pre = "apple-touch-icon-%dx%d-precomposed.png"
 

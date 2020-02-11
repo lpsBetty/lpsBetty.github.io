@@ -33,3 +33,11 @@ facebook_username: "lpsBetty"
 github_username: "lpsbetty"
 linkedin_username: "bettina-steger-2ab1457b"
 email: "hello@bettysteger.com"
+
+permalink   : /blog/:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+gems:
+  - jekyll-gravatar
+  - jekyll-redirect-from

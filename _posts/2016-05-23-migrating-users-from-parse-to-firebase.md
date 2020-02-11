@@ -12,9 +12,12 @@ tags:
 - migration
 - javascript
 - angularjs
+category: Javascript
+banner_preview: home2.jpg
+banner_image: home2.jpg
 ---
 
-As some of you may know the [Parse](https://www.parse.com) hosted service is shutting down on January 28, 2017. I was looking for an alternative because I don't want to self-host a Parse Server. First of all I read some blog posts and revised the features of Parse that are used by my small app [showmaniac](https://www.showmaniac.org/). 
+As some of you may know the [Parse](https://www.parse.com) hosted service is shutting down on January 28, 2017. I was looking for an alternative because I don't want to self-host a Parse Server. First of all I read some blog posts and revised the features of Parse that are used by my small app [showmaniac](https://www.showmaniac.org/).
 
 Feature Requirements:
 
@@ -25,11 +28,11 @@ Feature Requirements:
 
 <br>
 
-### Migrate to Firebase 
+### Migrate to Firebase
 
 [Firebase](https://www.firebase.com/) seems like the easiest and most popular alternative in my case. I was really quick rewriting the front-end JS code and everything, but the most difficult task was migrating the small user base from Parse to Firebase:
 
-I had 2 different types of user authentications: Email with Password and Facebook oAuth. When exporting the User Data from Parse this looks like this: 
+I had 2 different types of user authentications: Email with Password and Facebook oAuth. When exporting the User Data from Parse this looks like this:
 
 {% highlight javascript %}{% raw %}
 {  // 'normal' user
@@ -47,20 +50,20 @@ I had 2 different types of user authentications: Email with Password and Faceboo
   },
   "bcryptPassword": "$2a$10$uoRqTIiResUUiWR869ULNuUoVYGhxUrO",
   "username": "YVEy6wiGg11jemrEUgJRojyHx",
-  ...  
+  ...
 }
 {% endraw %}{% endhighlight %}
 
 
 Unfortunately Firebase doesn’t allow importing users, so I just found this [stackoverflow question](http://stackoverflow.com/questions/16053273/firebase-import-users-from-existing-app), which can't do the trick, but it got me thinking!
 
-Here are the 2 solutions, for the 2 types of users I had. 
+Here are the 2 solutions, for the 2 types of users I had.
 
 <br>
 
 #### 1. Users with Facebook Authentication
 
-It was quite easy to write a small JS script by using the [Firebase Web API](https://www.firebase.com/docs/web/api/firebase/authwithoauthtoken.html). This script will authenticate with Facebook using an existing OAuth 2.0 access token - the access token was saved (and updated when the user logs in) in your Parse Database. 
+It was quite easy to write a small JS script by using the [Firebase Web API](https://www.firebase.com/docs/web/api/firebase/authwithoauthtoken.html). This script will authenticate with Facebook using an existing OAuth 2.0 access token - the access token was saved (and updated when the user logs in) in your Parse Database.
 
 The downside, it does only work for active users, so when the expiration date is expired, the login will fail :(   --  That's why I added a check for not making an extra call to Firebase:
 
@@ -90,7 +93,7 @@ If you want to run this JS script [here](http://js.do/code/migrate-parse-users-t
 
 ![Migrate them all!](https://cdn.meme.am/instances/200x/68515726.jpg){: .pull-right}
 
-The **REAL** question is: How can you import users from Parse to Firebase, when the password is bcyrpted? 
+The **REAL** question is: How can you import users from Parse to Firebase, when the password is bcyrpted?
 
 The only answer and solution that worked for me was to:
 
@@ -98,7 +101,7 @@ The only answer and solution that worked for me was to:
 2. put Parse authentication 'in the background'
 3. get user data from Parse to Firebase behind the scenes
 
-Let's go in more detail and show some code examples. When the user comes to your app and the Parse user is still logged in, you need them to **logout and login again** to create a Firebase authentication. 
+Let's go in more detail and show some code examples. When the user comes to your app and the Parse user is still logged in, you need them to **logout and login again** to create a Firebase authentication.
 
 {% highlight javascript %}{% raw %}
 var currentParseUser = Parse.User.current();
@@ -166,7 +169,7 @@ if(firebaseUser.authData.provider === 'facebook' && !firebaseUser.username.lengt
 }
 {% endraw %}{% endhighlight %}
 
-Next time the user logs in via Email/Password or Facebook, no additional request will be made to Parse, which means: 
+Next time the user logs in via Email/Password or Facebook, no additional request will be made to Parse, which means:
 
 A successful sign up to your Firebase project **completes the migration** of this user!
 {: .txt-center}
@@ -177,10 +180,10 @@ All active users can be safely moved to Firebase, without them even noticing. If
 
 
 ---
-  
+
 ##### References
 
-[Firebase.authWithOAuthToken()](https://www.firebase.com/docs/web/api/firebase/authwithoauthtoken.html)  
-[AngularFire - Users and Authentication](https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-createusercredentials)  
-[StackOverflow - Q1](http://stackoverflow.com/questions/36185483/how-to-migrate-data-from-parse-com-to-firebase)  
-[StackOverflow - Q2](http://stackoverflow.com/questions/16053273/firebase-import-users-from-existing-app)    
+[Firebase.authWithOAuthToken()](https://www.firebase.com/docs/web/api/firebase/authwithoauthtoken.html)
+[AngularFire - Users and Authentication](https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-createusercredentials)
+[StackOverflow - Q1](http://stackoverflow.com/questions/36185483/how-to-migrate-data-from-parse-com-to-firebase)
+[StackOverflow - Q2](http://stackoverflow.com/questions/16053273/firebase-import-users-from-existing-app)

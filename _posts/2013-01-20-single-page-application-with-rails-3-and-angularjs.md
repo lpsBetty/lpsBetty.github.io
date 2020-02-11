@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Single-Page application with Rails 3 and AngularJS"
+redirect_from: /single-page-application-with-rails-3-and-angularjs
 date: 2013-01-20 16:39:18
 comments: true
 description: "A small tutorial how to use AngularJS with Ruby on Rails 3"
@@ -10,6 +11,9 @@ tags:
 - deployment
 - javascript
 - ruby on rails
+category: Javascript
+banner_preview: home2.jpg
+banner_image: home2.jpg
 ---
 
 #### What is AngularJS?
@@ -43,11 +47,11 @@ class HomeController < ApplicationController
   def index
   end
 end
- 
+
 class ApplicationController < ActionController::Base
   protect_from_forgery
   before_filter :intercept_html_requests
- 
+
   private
   def intercept_html_requests
     render('home/index') if request.format == Mime::HTML
@@ -148,7 +152,7 @@ $scope.seenCount = function() {
   });
   return count;
 };
- 
+
 /**
  * Gets called everytime searchId is changed ($watch).
  * If the user chooses a search result the searchId is set and
@@ -160,7 +164,7 @@ $scope.$watch('searchId', function() {
     $scope.addShow($scope.searchId);
   }
 });
- 
+
 /**
  * Adds show to $scope.shows if not already in array.
  * @param {Integer} id show
@@ -168,10 +172,10 @@ $scope.$watch('searchId', function() {
 $scope.addShow = function(id) {
   var show = $scope.loadShow(id);
   if($.inArray(show, $scope.shows) !== -1) { return; }
- 
+
   $scope.shows.push(show);
 };
- 
+
 /**
  * Toggles seen of a show
  * @example
@@ -181,7 +185,7 @@ $scope.addShow = function(id) {
 $scope.toggleSeen = function(show) {
   show.seen = show.seen ? false : true;
 };
- 
+
 /**
  * Removes all special chars, all except numbers, letters and spaces.
  * "Shameless (US)" => "Shameless US"

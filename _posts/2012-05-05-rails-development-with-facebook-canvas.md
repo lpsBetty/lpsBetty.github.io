@@ -9,6 +9,9 @@ tags:
 - facebook
 - development
 - ruby on rails
+category: Rails
+banner_preview: home2.jpg
+banner_image: home2.jpg
 ---
 
 I was trying to make an existing app run as a Facebook App!
@@ -24,7 +27,7 @@ The only important setting for now is this one:
 
 I have also enabled the sandbox mode in the advanced settings, so that only I can access the Facebook app.
 
- 
+
 
 My app is really small so I’ve decided to only make an **before_filter** if the user uses Facebook to access my app:
 
@@ -32,9 +35,9 @@ My app is really small so I’ve decided to only make an **before_filter** if th
 {% highlight ruby %}{% raw %}
 class HomeController < ApplicationController
   before_filter :facebook_authorize
- 
+
   private
- 
+
   def facebook_authorize
     return unless params[:signed_request]
     @auth = FbGraph::Auth.new FACEBOOK[:key], FACEBOOK[:secret]
@@ -79,7 +82,7 @@ I got this error when redirecting to the authorize url. The problem was my canva
 
 
 This does not work with the **App ID**, you have to specify an **App Namespace** in the basic settings – then the error will disappear, like so (App Namespace is „app_localhost“):
- 
+
 {% highlight ruby %}{% raw %}
 @auth.authorize_uri("https://apps.facebook.com/app_localhost/").html_safe
 {% endraw %}{% endhighlight %}

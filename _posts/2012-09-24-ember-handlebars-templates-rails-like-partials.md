@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Ember Handlebars templates (Rails-like partials)"
+redirect_from: /ember-handlebars-templates-rails-like-partials
 date: 2012-09-24 10:39:01
 comments: true
 description: "A small tutorial how to embed a Handlebars template like a Rails partial"
@@ -10,6 +11,9 @@ tags:
 - handlebars
 - javascript
 - ruby on rails
+category: Javascript
+banner_preview: home2.jpg
+banner_image: home2.jpg
 ---
 
 I was looking for Handlebars partials (or templates that i could embed) that I can render like partials in Rails:

@@ -3,21 +3,62 @@ layout: default
 title: Blog
 ---
 
-<section class="hero">
+{% include nav.html %}
 
-  <div class="hero-inner container">
+<link href="/assets/css/animate.css" rel="stylesheet">
 
-    <h3>
-      My latest posts are on <a href="https://lingohub.com/blog/tag/javascript/" target="_blank">LingoHub blog</a>
-    </h3>
+<section id="blog-page" class="module">
+  <div class="container">
+    <div class="row">
 
-  </div>
+      <div class="module-header">
+        <h2 class="module-title">
+          Blog
+          <span>Blog</span>
+        </h2>
+        <div class="module-line"></div>
+      </div>
 
-</section>
+    </div><!-- .row -->
 
-<section class="post-list">
-  {% for post in paginator.posts %}
-    {% include article.html %}
-  {% endfor %}
+    <p class="text-center">Even though the author says something different, but my latest and most-clicked blog posts
+      about Javascript and AngularJS are on <a href="https://lingohub.com/blog?category=articles&search=JS"
+        target="_blank">LingoHub blog</a>.</p>
+    <p>&nbsp;</p>
+
+    <!-- Blog Filter start-->
+
+    <ul id="filter">
+      <li class="active" data-group="all">All</li>
+      {% assign categories = site.posts | map: 'category' | uniq %}
+      {% for category in categories %}
+      <li data-group="{{ category }}">{{ category }}</li>
+      {% endfor %}
+    </ul>
+
+    <!-- Blog Filter end -->
+
+    <ul class="list-items-container blog-wrapper">
+
+      {% for post in site.posts %}
+
+      <li class="list-item" data-groups="all {{ post.category }}">
+        <a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
+          <div class="blogList-img">
+            <img src="{{ "/assets/images/" | append: post.banner_preview | prepend: site.baseurl }}" alt="Blog Desc">
+            <span>{{ post.category }}</span>
+          </div>
+          <div class="blogList-desc">
+            <h3>{{ post.title }}</h3>
+            <div>{{ post.description }}</div>
+          </div>
+        </a>
+      </li>
+
+      {% endfor %}
+
+
+    </ul><!-- .projects-container -->
+  </div><!-- .contaier -->
 
 </section>
