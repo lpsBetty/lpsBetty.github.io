@@ -66,21 +66,6 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
 }
 
 /* ---------------------------------------------- /*
-* Twitter
-/* ---------------------------------------------- */
-
-
-$('.testimonials').owlCarousel({
-	singleItem: true,
-	navigation: false,
-	pagination: true,
-	slideSpeed : 300,
-	paginationSpeed : 400,
-	autoPlay: 5000,
-	navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
-});
-
-/* ---------------------------------------------- /*
 * Initialize shuffle plugin
 /* ---------------------------------------------- */
 
@@ -108,23 +93,5 @@ $('.simple-ajax-popup').magnificPopup({
 /* ---------------------------------------------- */
 
 new WOW().init();
-
-
-/* ---------------------------------------------- /*
-* A jQuery plugin for fluid width video embeds
-/* ---------------------------------------------- */
-
-$('body').fitVids();
-
-
-/* ---------------------------------------------- /*
-* A jQuery mb_YTPlayer init
-/* ---------------------------------------------- */
-
-
-if($('.youtube-bg').length == 1) {
-	$(".youtube-bg").mb_YTPlayer();
-}
-
 
 })(jQuery);
