@@ -1,50 +1,34 @@
-# Build settings
-permalink   : /blog/:year/:title/
-markdown    : kramdown
-highlighter : rouge
-gems:
-  - jekyll-paginate
-  - jekyll-gravatar
-  - jekyll-redirect-from
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-paginate: 5
-paginate_path: "/blog/page/:num/"
-comments: true
+# Site title
+title: "Betty Steger - Software Developer"
 
-destination: _site
+# A description of your site for social meta tag, search engines, and feed.xml
+description: "Xcent is a Responsive One Page Personal Template for creative people. Xcent can be used for many purposes starting from minimal portfolios, freelancers, photography and much more."
+
+
+# The subpath of your site, e.g. /blog, for generating urls
+baseurl:
+
 sass:
-  sass_dir: _scss
-  style: compressed # expanded
+  sass_dir: _sass
 
-# SEO settings
-title: bettysteger.com
-description: "Bettina Steger, MSc. Web / Software Developer. Working remote. Self-employed and happy."
-keywords: "Bettina Steger, web development, frontend, software engineer, software developer"
-url: https://bettysteger.com
-# baseurl: ""
+# The base hostname & protocol of your site for where absolute urls are needed
+url: "https://bettysteger.com"
 
-google_analytics: UA-25710155-2
-disqus_site_shortname: "bettysteger"
+# The shortname for your Disqus site to enable comments.
+disqus: "bettysteger"
 
-# Author settings
-author:
-  # name      : Bettina Steger
-  # job       : Frontend Engineer
-  # thumb     : /images/author.jpg
-  email     : hello@bettysteger.com
-  url       : https://bettysteger.com
-  github    : https://github.com/lpsBetty
-  twitter   : https://twitter.com/lpsBetty
-  # facebook  : http://facebook.com/lpsBetty
-  # linkedin  : http://linkedin.com/in/bettysteger
+# Author information - author info at the bottom of the post
+author_name: "BETTINA STEGER"
 
-# navbar pages
-navbar:
-  - slug: /projects/
-    title: Projects
-  - slug: /blog/
-    title: Blog
-  - slug: /contact/
-    title: Contact
-
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+# Social links in the site footer
+twitter_username: "lpsBetty"
+facebook_username: "lpsBetty"
+#pinterest_username: "username"
+linkedin_username: "bettina-steger-2ab1457b"

@@ -8,12 +8,50 @@ layout: default
 
 		<div class="intro">
 			<div class="hello">Hello, my name is Bettina Steger and</div>
-			<h1>I am a Software Developer</h1>
+			<h1>I am Front-End Developer</h1>
 			<div class="who-creates">creating modern and responsive design for Web and Mobile</div>
 		</div>
 
 		<div class="mouse-icon">
 			<div class="wheel"></div>
+		</div>
+
+		<div class="slider">
+
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="assets/images/home2.jpg" alt="Los Angeles">
+					</div>
+
+					<div class="item">
+						<img src="assets/images/home1.jpg" alt="Chicago">
+					</div>
+
+					<div class="item">
+						<img src="assets/images/home3.jpg" alt="New York">
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<i class="fas fa-chevron-left"></i>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<i class="fas fa-chevron-right"></i>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+
 		</div>
 
 	</section>
@@ -22,41 +60,41 @@ layout: default
 
 	<!-- Navigation start -->
 
-    <header class="header">
+	<header class="header">
 
-        <nav class="navbar navbar-custom">
+		<nav class="navbar navbar-custom">
 
-            <div class="container">
+			<div class="container">
 
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/">bettysteger</a>
-                </div>
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">bettysteger</a>
+				</div>
 
-                <div class="collapse navbar-collapse" id="custom-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#home">home</a></li>
-                        <li><a href="#portfolio">Works</a></li>
-                        <!-- <li><a href="#services">Service</a></li> -->
-                        <li><a href="#about">About</a></li>
-                        <!-- <li><a href="#testimonial">Testimonial</a></li> -->
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">home</a></li>
+						<li><a href="#portfolio">Works</a></li>
+						<li><a href="#services">Service</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#testimonial">Testimonial</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
 
-            </div><!-- .container -->
+			</div><!-- .container -->
 
-        </nav>
+		</nav>
 
-    </header>
+	</header>
 
-    <!-- Navigation end -->
+	<!-- Navigation end -->
 
 	<!-- Portfolio start -->
 
@@ -99,9 +137,9 @@ layout: default
 
 			<li class="list-item" data-groups="all slideshow">
 				<figure>
-					<img src="{{site.baseurl}}assets/images/p1-1.jpg" alt="p1">
+					<img src="assets/images/p1-1.jpg" alt="p1">
 					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p1-1.jpg" class="simple-ajax-popup"></a>
+						<a href="assets/images/p1-1.jpg" class="simple-ajax-popup"></a>
 						<div class="caption-inner">
 							<h3 class="portfolio-item-title">Some work one</h3>
 							<div class="portfolio-item-desc">Slideshow</div>
@@ -112,9 +150,9 @@ layout: default
 
 			<li class="list-item" data-groups="all video">
 				<figure>
-					<img src="{{site.baseurl}}assets/images/p2-2.jpg" alt="p2">
+					<img src="assets/images/p2-2.jpg" alt="p2">
 					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p2-2.jpg" class="simple-ajax-popup"></a>
+						<a href="assets/images/p2-2.jpg" class="simple-ajax-popup"></a>
 						<div class="caption-inner">
 							<h3 class="portfolio-item-title">Some work one</h3>
 							<div class="portfolio-item-desc">Video</div>
@@ -125,9 +163,9 @@ layout: default
 
 			<li class="list-item" data-groups="all image">
 				<figure>
-					<img src="{{site.baseurl}}assets/images/p3-3.jpg" alt="p3">
+					<img src="assets/images/p3-3.jpg" alt="p3">
 					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p3-3.jpg" class="simple-ajax-popup"></a>
+						<a href="assets/images/p3-3.jpg" class="simple-ajax-popup"></a>
 						<div class="caption-inner">
 							<h3 class="portfolio-item-title">Some work one</h3>
 							<div class="portfolio-item-desc">Image</div>
@@ -138,9 +176,9 @@ layout: default
 
 			<li class="list-item" data-groups="all slideshow">
 				<figure>
-					<img src="{{site.baseurl}}assets/images/p4-4.jpg" alt="p4">
+					<img src="assets/images/p4-4.jpg" alt="p4">
 					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p4-4.jpg" class="simple-ajax-popup"></a>
+						<a href="assets/images/p4-4.jpg" class="simple-ajax-popup"></a>
 						<div class="caption-inner">
 							<h3 class="portfolio-item-title">Some work one</h3>
 							<div class="portfolio-item-desc">Slideshow</div>
@@ -151,9 +189,9 @@ layout: default
 
 			<li class="list-item" data-groups="all video">
 				<figure>
-					<img src="{{site.baseurl}}assets/images/p5-5.jpg" alt="p5">
+					<img src="assets/images/p5-5.jpg" alt="p5">
 					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p5-5.jpg" class="simple-ajax-popup"></a>
+						<a href="assets/images/p5-5.jpg" class="simple-ajax-popup"></a>
 						<div class="caption-inner">
 							<h3 class="portfolio-item-title">Some work one</h3>
 							<div class="portfolio-item-desc">Video</div>
@@ -164,9 +202,9 @@ layout: default
 
 			<li class="list-item" data-groups="all image">
 				<figure>
-					<img src="{{site.baseurl}}assets/images/p6-6.jpg" alt="p6">
+					<img src="assets/images/p6-6.jpg" alt="p6">
 					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p6-6.jpg" class="simple-ajax-popup"></a>
+						<a href="assets/images/p6-6.jpg" class="simple-ajax-popup"></a>
 						<div class="caption-inner">
 							<h3 class="portfolio-item-title">Some work one</h3>
 							<div class="portfolio-item-desc">Image</div>
@@ -182,7 +220,7 @@ layout: default
 	<!-- Portfolio end -->
 
 	<!-- Services start -->
-<!--
+
 	<section id="services" class="module module-gray">
 		<div class="container">
 
@@ -236,9 +274,6 @@ layout: default
 					</div>
 				</div>
 
-			</div>
-			<div class="row">
-
 				<div class="col-sm-4">
 
 					<div class="iconbox wow fadeInUp" data-wow-delay=".4s">
@@ -289,7 +324,7 @@ layout: default
 
 			</div><!-- .row -->
 		</div><!-- .container -->
-	</section> -->
+	</section>
 
 	<!-- Services end -->
 
@@ -312,6 +347,9 @@ layout: default
 								About me
 								<span>About</span>
 							</h2>
+							<div class="module-subtitle">
+								He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.
+							</div>
 							<div class="module-line"></div>
 						</div>
 
@@ -330,7 +368,7 @@ layout: default
 							<div class="iconboxleft-text">
 								<h3 class="iconboxleft-title">Photographer</h3>
 								<div class="iconboxleft-desc">
-									I love to travel with family and friends. I try to capture the best moments on my <a href="https://www.instagram.com/lpsBetty/" target="_blank">Instagram</a>.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt .
 								</div>
 							</div>
 						</div>
@@ -346,7 +384,7 @@ layout: default
 							<div class="iconboxleft-text">
 								<h3 class="iconboxleft-title">Music</h3>
 								<div class="iconboxleft-desc">
-									I have been to many open air concerts and made very small <a href="/fakehappy">project</a> as a tribute to one of my favourite bands.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt .
 								</div>
 							</div>
 						</div>
@@ -361,12 +399,12 @@ layout: default
 
 						<div class="iconboxleft wow fadeInUp">
 							<div class="iconboxleft-icon">
-								<i class="fas fa-tv"></i>
+								<i class="fas fa-paint-brush"></i>
 							</div>
 							<div class="iconboxleft-text">
-								<h3 class="iconboxleft-title">Bing-watcher</h3>
+								<h3 class="iconboxleft-title">Painting</h3>
 								<div class="iconboxleft-desc">
-									I am a "Serienjunkie" (german word for TV show maniac) before it was cool, that's why I created <a href="https://www.showmaniac.org/">showmaniac</a> to keep track of my TV shows.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
 								</div>
 							</div>
 						</div>
@@ -377,12 +415,12 @@ layout: default
 
 						<div class="iconboxleft wow fadeInUp" data-wow-delay=".2s">
 							<div class="iconboxleft-icon">
-								<i class="fas fa-trophy"></i>
+								<i class="fas fa-hat-wizard"></i>
 							</div>
 							<div class="iconboxleft-text">
-								<h3 class="iconboxleft-title">Winner</h3>
+								<h3 class="iconboxleft-title">Magic</h3>
 								<div class="iconboxleft-desc">
-									I am often asked: "I never win. Why do you win so many prizes?". I always answer: "I love to participate on different contests/competitions."
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
 								</div>
 							</div>
 						</div>
@@ -400,7 +438,7 @@ layout: default
 
 	<!-- Testimonial start -->
 
-	<!-- <div id="testimonial" class="module module-gray text-center">
+	<div id="testimonial" class="module module-gray text-center">
 		<div class="container">
 
 			<div class="module-header wow fadeInUp">
@@ -438,7 +476,7 @@ layout: default
 
 			</div><!-- .row -->
 		</div><!-- .container -->
-	</div> -->
+	</div>
 
 	<!-- Testimonial end -->
 
@@ -456,7 +494,7 @@ layout: default
 
 			<div class="row">
 
-      	{% for post in site.posts limit:3 %}
+				{% for post in site.posts limit:3 %}
 					<div class="col-sm-4">
 						<a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
 							<div class="blogList-img">
@@ -487,11 +525,11 @@ layout: default
 
 	<!-- Google Map start-->
 
-	<!-- <div id="map-section">
+	<div id="map-section">
 
 		<div id="map"></div>
 
-	</div> -->
+	</div>
 
 	<!-- Google Map end -->
 

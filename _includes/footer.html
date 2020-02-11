@@ -1,9 +1,43 @@
-<footer class="site-footer">
-  <div class="container">
-    {% include social.html %}
-    <p class="txt-medium-gray">
-      <small>&copy;{{ site.time | date: '%Y' }} All rights reserved. Made with ♥</small><br>
-      <small><small><a href="{{ '/imprint' | prepend: site.baseurl }}">Imprint</a></small></small>
-    </p>
-  </div>
+<!-- Footer start -->
+
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-sm-12">
+
+				<ul class="social-links">
+					{% if site.facebook_username %}
+						<li><a href="https://www.facebook.com/{{ site.facebook_username }}" class="wow fadeInUp"><i class="fab fa-facebook-f"></i></a></li>
+					{% endif %}
+					{% if site.twitter_username %}
+						<li><a href="https://twitter.com/{{ site.twitter_username }}" class="wow fadeInUp" data-wow-delay=".1s"><i class="fab fa-twitter"></i></a></li>
+					{% endif %}
+					{% if site.googleplus_username %}
+						<li><a href="https://plus.google.com/{{ site.googleplus_username }}" class="wow fadeInUp" data-wow-delay=".2s"><i class="fab fa-google-plus-g"></i></a></li>
+					{% endif %}
+					{% if site.linkedin_username %}
+						<li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="wow fadeInUp" data-wow-delay=".3s"><i class="fab fa-linkedin-in"></i></a></li>
+					{% endif %}
+					{% if site.pinterest_username %}
+						<li><a href="http://www.pinterest.com/{{ site.pinterest_username }}" class="wow fadeInUp" data-wow-delay=".4s"><i class="fab fa-pinterest-p"></i></a></li>
+					{% endif %}
+				</ul>
+
+				<p class="copyright">
+					© {{ 'now' | date: "%Y" }} bettysteger.com, All Rights Reserved.
+				</p>
+
+			</div>
+
+		</div><!-- .row -->
+	</div><!-- .container -->
 </footer>
+
+<!-- Footer end -->
+
+<!-- Scroll-up -->
+
+<div class="scroll-up">
+	<a id="scroll-up"><i class="fas fa-arrow-up"></i></a>
+</div>
