@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'rmagick'
+gem 'rake'
 
 group :jekyll_plugins do
   gem 'jekyll-compose'

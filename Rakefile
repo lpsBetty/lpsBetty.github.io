@@ -162,11 +162,11 @@ namespace :assets do
     config = YAML.load_file('_config.yml')
     gravatar_email = config['email']
     asset_path = 'images'
-    name_pre = "apple-touch-icon-%dx%d-precomposed.png"
+    name_pre = "favicon-%d.png"
 
     puts "Assembling Gravatar URL..."
     gravatar_hash = Digest::MD5.hexdigest(gravatar_email)
-    gravatar_url = "https://www.gravatar.com/avatar/#{gravatar_hash}?s=144"
+    gravatar_url = "https://www.gravatar.com/avatar/#{gravatar_hash}?s=192"
 
     origin = "origin.png"
     File.delete origin if File.exist? origin
@@ -184,7 +184,7 @@ namespace :assets do
       File.delete img
     end
 
-    [144, 114, 72, 57, 32].each do |size|
+    [180, 152, 76, 120, 60, 144, 72, 114, 57, 64, 96, 160, 192, 32].each do |size|
       im = Magick::Image::read(origin).first.resize(size, size)
       circle = Magick::Image.new size, size
       gc = Magick::Draw.new
@@ -195,10 +195,10 @@ namespace :assets do
       mask.matte = false
       im.matte = true
       im.composite!(mask, Magick::CenterGravity, Magick::CopyOpacityCompositeOp)
-      if size > 32
-        puts "Generating #{name_pre} icon..." % [size, size]
-        im.write "#{asset_path}/" + name_pre % [size, size]
-      else
+
+      puts "Generating #{name_pre} icon..." % [size, size]
+      im.write "#{asset_path}/" + name_pre % [size, size]
+      if size == 32
         puts "Generating favicon.ico..."
         im.write "#{asset_path}/favicon.ico"
       end
