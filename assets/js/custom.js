@@ -83,10 +83,10 @@ $('#filter li').on('click', function (e) {
 	$portfolioContainer.shuffle('shuffle', groupName );
 });
 
-$('.simple-ajax-popup').magnificPopup({
-	type: 'image',
-	gallery:{enabled:true}
-});
+// $('.simple-ajax-popup').magnificPopup({
+// 	type: 'image',
+// 	gallery:{enabled:true}
+// });
 
 /* ---------------------------------------------- /*
 * WOW Animation When You Scroll
