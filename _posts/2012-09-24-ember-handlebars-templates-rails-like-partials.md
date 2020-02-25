@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ember Handlebars templates (Rails-like partials)"
-redirect_from: /ember-handlebars-templates-rails-like-partials
+redirect_from: /ember-handlebars-templates-rails-like-partials/
 date: 2012-09-24 10:39:01
 comments: true
 description: "A small tutorial how to embed a Handlebars template like a Rails partial"

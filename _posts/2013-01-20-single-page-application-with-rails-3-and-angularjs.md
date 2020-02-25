@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Single-Page application with Rails 3 and AngularJS"
-redirect_from: /single-page-application-with-rails-3-and-angularjs
+redirect_from: /single-page-application-with-rails-3-and-angularjs/
 date: 2013-01-20 16:39:18
 comments: true
 description: "A small tutorial how to use AngularJS with Ruby on Rails 3"

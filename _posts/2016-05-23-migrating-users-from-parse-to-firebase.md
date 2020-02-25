@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Migrating users from Parse to Firebase"
-redirect_from: /migrating-users-from-parse-to-firebase
+redirect_from: /migrating-users-from-parse-to-firebase/
 date: 2016-05-23 23:23:23
 comments: true
 description: "Migrating users from Parse to Firebase"
