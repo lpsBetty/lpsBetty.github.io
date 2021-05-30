@@ -16,7 +16,7 @@ description: "Betty Steger, MSc. Web / Software Developer. Working remote. Self-
 baseurl:
 
 sass:
-  sass_dir: assets/css
+  sass_dir: assets
   style: compressed
 
 # The base hostname & protocol of your site for where absolute urls are needed
@@ -42,5 +42,4 @@ highlighter : rouge
 plugins:
   - jekyll-gravatar
   - jekyll-redirect-from
-  - jekyll-bootstrap-sass
 
