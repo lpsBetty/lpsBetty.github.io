@@ -20,7 +20,7 @@ Clean Jekyll theme
 ### Development
 
 1. Install Ruby gems: `bundle install`
-2. Start Jekyll server: `jekyll serve`
+2. Start Jekyll server: `bundle exec jekyll serve`
 
 Access, [localhost:4000](http://localhost:4000/)
 
@@ -30,7 +30,7 @@ If you have no custom plugins what so ever (see [below](#plugins-on-github-pages
 
 * `git push origin master` or `git push origin gh-pages`
 
-Otherwise: 
+Otherwise:
 
 1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
 2. If master is your `GITHUB_REPO_BRANCH` create a `dev` branch

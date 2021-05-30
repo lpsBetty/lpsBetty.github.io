@@ -16,7 +16,8 @@ description: "Betty Steger, MSc. Web / Software Developer. Working remote. Self-
 baseurl:
 
 sass:
-  sass_dir: _sass
+  sass_dir: assets/css
+  style: compressed
 
 # The base hostname & protocol of your site for where absolute urls are needed
 url: "https://bettysteger.com"
@@ -38,6 +39,10 @@ permalink   : /blog/:year/:title/
 markdown    : kramdown
 highlighter : rouge
 
-plugins:
+gems:
   - jekyll-gravatar
   - jekyll-redirect-from
+  - jekyll-bootstrap-sass
+
+bootstrap:
+  assets: true
