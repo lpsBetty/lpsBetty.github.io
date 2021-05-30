@@ -39,10 +39,8 @@ permalink   : /blog/:year/:title/
 markdown    : kramdown
 highlighter : rouge
 
-gems:
+plugins:
   - jekyll-gravatar
   - jekyll-redirect-from
   - jekyll-bootstrap-sass
 
-bootstrap:
-  assets: true
