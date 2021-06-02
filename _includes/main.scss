@@ -689,6 +689,19 @@ figure {
 	transform: scale(.97);
 }
 
+.clients {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+	img, svg {
+		filter: grayscale(100%) contrast(20%) brightness(90%);
+		height: 60px;
+	}
+	a:hover img, a:hover svg {
+		filter: none;
+	}
+}
+
 /* Ajax portfolio */
 
 // .mfp-bg {
